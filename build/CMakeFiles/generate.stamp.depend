@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindBullet.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+D:/OGREBullet/o3d_1-12_bull_3_base/CMakeLists.txt
+D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/3.19.1/CMakeCCompiler.cmake
+D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/3.19.1/CMakeCXXCompiler.cmake
+D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/3.19.1/CMakeRCCompiler.cmake
+D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/3.19.1/CMakeSystem.cmake
+D:/OGREBullet/o3d_1-12_bull_3_base/tools/cmake/common.cmake
+D:/OGREBullet/ogre/build/sdk/CMake/OGREConfig.cmake
+D:/OGREBullet/ogre/build/sdk/CMake/OGREConfigVersion.cmake
+D:/OGREBullet/ogre/build/sdk/CMake/OgreTargets-relwithdebinfo.cmake
+D:/OGREBullet/ogre/build/sdk/CMake/OgreTargets.cmake
