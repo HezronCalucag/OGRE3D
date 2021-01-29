@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{189E3410-BA00-355D-BD60-5892548EBCF0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>SimpleGame</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OGREBullet/o3d_1-12_bull_3_base/build/dist/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SimpleGame.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SimpleGame_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OGREBullet/o3d_1-12_bull_3_base/build/dist/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SimpleGame.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SimpleGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/OGREBullet/o3d_1-12_bull_3_base/build/dist/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SimpleGame.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SimpleGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/OGREBullet/o3d_1-12_bull_3_base/build/dist/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SimpleGame.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SimpleGame</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CONSOLE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CONSOLE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\OGREBullet\ogre\build\sdk\lib\OgreBites.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMeshLodGenerator.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreProperty.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreRTShaderSystem.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreTerrain.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreVolume.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreOverlay.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletDynamics.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletCollision.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\LinearMath.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletSoftBody.lib;D:\OGREBullet\ogre\build\sdk\lib\OgrePaging.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OGREBullet/o3d_1-12_bull_3_base/build/Debug/SimpleGame_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OGREBullet/o3d_1-12_bull_3_base/build/Debug/SimpleGame_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\OGREBullet\ogre\build\sdk\lib\OgreBites.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMeshLodGenerator.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreProperty.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreRTShaderSystem.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreTerrain.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreVolume.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreOverlay.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletDynamics.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletCollision.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\LinearMath.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletSoftBody.lib;D:\OGREBullet\ogre\build\sdk\lib\OgrePaging.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OGREBullet/o3d_1-12_bull_3_base/build/Release/SimpleGame.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OGREBullet/o3d_1-12_bull_3_base/build/Release/SimpleGame.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\OGREBullet\ogre\build\sdk\lib\OgreBites.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMeshLodGenerator.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreProperty.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreRTShaderSystem.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreTerrain.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreVolume.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreOverlay.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletDynamics.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletCollision.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\LinearMath.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletSoftBody.lib;D:\OGREBullet\ogre\build\sdk\lib\OgrePaging.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OGREBullet/o3d_1-12_bull_3_base/build/MinSizeRel/SimpleGame.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OGREBullet/o3d_1-12_bull_3_base/build/MinSizeRel/SimpleGame.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CONSOLE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CONSOLE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OGREBullet\ogre\bullet3\build\sdk\include\bullet;D:\OGREBullet\ogre\build\sdk\include\OGRE\Bites;D:\OGREBullet\ogre\build\sdk\include\OGRE;D:\OGREBullet\ogre\build\sdk\include\OGRE\Overlay;D:\OGREBullet\ogre\build\sdk\include\OGRE\RTShaderSystem;D:\OGREBullet\ogre\build\sdk\include\OGRE\MeshLodGenerator;D:\OGREBullet\ogre\build\sdk\include\OGRE\Paging;D:\OGREBullet\ogre\build\sdk\include\OGRE\Property;D:\OGREBullet\ogre\build\sdk\include\OGRE\Terrain;D:\OGREBullet\ogre\build\sdk\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\OGREBullet\ogre\build\sdk\lib\OgreBites.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMeshLodGenerator.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreProperty.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreRTShaderSystem.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreTerrain.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreVolume.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreOverlay.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletDynamics.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletCollision.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\LinearMath.lib;D:\OGREBullet\ogre\bullet3\build\sdk\lib\BulletSoftBody.lib;D:\OGREBullet\ogre\build\sdk\lib\OgrePaging.lib;D:\OGREBullet\ogre\build\sdk\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OGREBullet/o3d_1-12_bull_3_base/build/RelWithDebInfo/SimpleGame.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OGREBullet/o3d_1-12_bull_3_base/build/RelWithDebInfo/SimpleGame.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\OGREBullet\o3d_1-12_bull_3_base\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OGREBullet/o3d_1-12_bull_3_base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OGREBullet/o3d_1-12_bull_3_base -BD:/OGREBullet/o3d_1-12_bull_3_base/build --check-stamp-file D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBullet.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeSystem.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\tools\cmake\common.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfig.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfigVersion.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets-relwithdebinfo.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OGREBullet/o3d_1-12_bull_3_base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OGREBullet/o3d_1-12_bull_3_base -BD:/OGREBullet/o3d_1-12_bull_3_base/build --check-stamp-file D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBullet.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeSystem.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\tools\cmake\common.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfig.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfigVersion.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets-relwithdebinfo.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/OGREBullet/o3d_1-12_bull_3_base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OGREBullet/o3d_1-12_bull_3_base -BD:/OGREBullet/o3d_1-12_bull_3_base/build --check-stamp-file D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBullet.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeSystem.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\tools\cmake\common.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfig.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfigVersion.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets-relwithdebinfo.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/OGREBullet/o3d_1-12_bull_3_base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/OGREBullet/o3d_1-12_bull_3_base -BD:/OGREBullet/o3d_1-12_bull_3_base/build --check-stamp-file D:/OGREBullet/o3d_1-12_bull_3_base/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindBullet.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\3.19.1\CMakeSystem.cmake;D:\OGREBullet\o3d_1-12_bull_3_base\tools\cmake\common.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfig.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OGREConfigVersion.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets-relwithdebinfo.cmake;D:\OGREBullet\ogre\build\sdk\CMake\OgreTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\OGREBullet\o3d_1-12_bull_3_base\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Enemy.h" />
+    <ClInclude Include="..\src\Player.h" />
+    <ClInclude Include="D:\OGREBullet\o3d_1-12_bull_3_base\src\Game.h" />
+    <ClCompile Include="..\src\Enemy.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="D:\OGREBullet\o3d_1-12_bull_3_base\src\Game.cpp" />
+    <ClCompile Include="D:\OGREBullet\o3d_1-12_bull_3_base\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\OGREBullet\o3d_1-12_bull_3_base\build\ZERO_CHECK.vcxproj">
+      <Project>{CB434843-AA28-315D-9474-7581DD199B18}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
